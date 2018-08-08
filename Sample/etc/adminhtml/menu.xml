@@ -1,0 +1,17 @@
+<!--
+/*
+ * Krish_Sample
+
+ * @category   Krish
+ * @package    Krish_Sample
+ * @copyright  Copyright (c) 2018 Vishves Shah
+ * @license    
+ * @version    1.0.0
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Krish_Sample::data" title="Sample Data" module="Krish_Sample" sortOrder="75" resource="Krish_Sample::data"
+             action="sample/data/index"/>
+    </menu>
+</config>
